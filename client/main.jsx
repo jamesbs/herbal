@@ -1,7 +1,9 @@
 Herbal = React.createClass({
   render() {
     return (
-      <div>Herbal : Jamesbs</div>
+      <header>
+        <a id="main-logo" href="/">Herbal</a> : James Broadcasting System
+      </header>
     );
   }
 });
