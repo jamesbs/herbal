@@ -1,10 +1,16 @@
 Herbal = React.createClass({
   render() {
     return (
-      <header>
-        <a id="main-logo" href="/">Herbal</a>
-        <AccountWidget />
-      </header>
+      <div className="inner"> 
+        <header>
+          <a id="main-logo" href="/">Herbal</a>
+          <AccountWidget />
+        </header>
+        <main>
+          <List/>
+          <List/>
+        </main>
+      </div>
     );
   }
 });
