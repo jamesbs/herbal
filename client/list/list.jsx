@@ -9,9 +9,9 @@ List = React.createClass({
 			<div className="list active">
 				<div className="title">{this.state.title}</div>
 				<ul>
-					<ListItem/>
-					<ListItem/>
-					<ListItem/>
+					<Listing/>
+					<Listing/>
+					<Listing/>
 				</ul>
 			</div>
 		); 

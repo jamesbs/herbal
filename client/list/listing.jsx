@@ -1,4 +1,4 @@
-ListItem = React.createClass({
+Listing = React.createClass({
 	getInitialState() {
 		return {
 			title: 'I am a list item'

@@ -1,4 +1,4 @@
-Herbal = React.createClass({
+HerbalApp = React.createClass({
   render() {
     return (
       <div className="inner"> 
@@ -16,5 +16,5 @@ Herbal = React.createClass({
 });
 
 Meteor.startup(() => {
-  React.render(<Herbal />, document.getElementById('herbal-app'));
+  React.render(<HerbalApp />, document.getElementById('herbal-app'));
 });
