@@ -1,3 +1,3 @@
 Herbal = {
-	React: {}
+    React: {}
 };
