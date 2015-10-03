@@ -5,6 +5,7 @@ HerbalApp = React.createClass({
         <header>
           <a id="main-logo" href="/">Herbal</a>
           <AccountWidget />
+          <Search />
         </header>
         <main>
           <List/>
