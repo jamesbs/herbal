@@ -1,0 +1,3 @@
+Herbal = {
+	React: {}
+};

@@ -1,4 +1,5 @@
-@import "libs"
+@import "https://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600,800,700,900|Montserrat:400,700.css"
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
 
 html, body
 	height 100%
@@ -6,6 +7,7 @@ html, body
 body 
 	font-family 'Raleway', sans-serif
 	background-color #f5f5f5
+	color #212121
 
 a
 	text-decoration none
@@ -21,23 +23,32 @@ header
 	height 1.5rem
 
 #search-widget
+	width 1.5rem
+	margin-right 1rem
+	float right
+
 	.search-box
 		display none
 
 	.search-box.active
 		display block
 
-.search-box
-	width 50rem
-	margin 0 0.5rem
-	padding 0.2rem
-	background-color #fff
-	border 1px solid #eceff1
+	.search-box
+		width 50rem
+		margin 0 0.5rem
+		padding 0.2rem
+		background-color #fff
+		border 1px solid #eceff1
 
-	input
-		border 0
-		font-size 1.2rem
-		outline none
+		input
+			border 0
+			font-size 1.2rem
+			outline none
+
+	.expand-button
+		color #424242
+		font-size 1.6rem
+
 
 #main-logo
 	margin-left 0.7rem
@@ -84,9 +95,13 @@ main
 		&.active 
 			width 22rem
 
-		.title
+		input.title
+			width calc(100% - 1.4rem)
 			padding 0 .7rem
 			font-size 1.5rem
+			border 0
+			background transparent
+			outline none
 
 		ul
 			margin-top .8rem
