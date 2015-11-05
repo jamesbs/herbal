@@ -23,3 +23,4 @@ stylus
 accounts-password
 accounts-google
 accounts-facebook
+iron:router
